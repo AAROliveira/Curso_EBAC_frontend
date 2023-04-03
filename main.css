@@ -102,17 +102,17 @@ section h2 {
 }
 
 #entretainment {
-    background-color: rgba(219, 120, 219, 0.1);
+    background-color: #ffff;
 }
 
 #entretainment .articles article a {
-    background-color: #fbf2fc;
+    background-color: #ffff;
 }
 
 #technology {
-    background-color: #a8a8a7;
+    background-color: #ffff;
 }
 
 #technology .articles article a {
-    background-color: #918e8e;
+    background-color: #ffff;
 }
