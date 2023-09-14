@@ -1,0 +1,83 @@
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.branding img {
+    width: 120px; 
+    height: auto;
+}
+
+nav {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    font-weight: @menu-font-weight;
+    margin-left: 24px;
+}
+
+.menu li a {
+    color: @menu-link-color;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+
+    &:hover {
+        color: lighten(@menu-link-color, 10%); 
+    }
+}
+
+section {
+    padding: 56px 0;
+}
+
+.products {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%);
+    column-gap: 1%;
+    row-gap: 4%;
+    width: 100%;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 100%;
+        border-radius: 16px;
+    }
+
+    h4 {
+        margin-top: 8px;
+    }
+
+    p {
+        margin-top: 4px;
+    }
+}
+
+.product-button {
+    display: block;
+    background-color: @product-button-bg-color;
+    color: @menu-link-color;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: @product-button-bg-color-hover;
+    }
+}
